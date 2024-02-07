@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/tela-entrar.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/text.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/button.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/input.css">
+    <script src="/javas.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Lato:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Lato:wght@300&family=Raleway:wght@100&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="ajuste -second">
+        <h1>SMART CROP</h1>
+        <h2>Nome:</h2>
+        <input type="text" id="nome" required maxlength="100" size="40" placeholder="Digite seu nome"/>
+        <h2>Email:</h2>
+        <input type="email" id="email" pattern=".+@example\.com" required maxlength="100" size="40" placeholder="Digite seu email"/>
+        <h2>Senha:</h2>
+        <div class="input">
+            <input type="password" name="password" id="password1" placeholder="Digite sua senha"  size="38"> 
+            <img src="assets/img/eye.svg" onclick="togglePasswordVisibility('password1','icon1')">
+        </div>
+
+        <h2>Confirme a senha:</h2>
+        <div class="input">
+            <input type="password" name="password" id="password2" placeholder="Digite sua senha"  size="38"> 
+            <img src="assets/img/eye.svg" onclick="togglePasswordVisibility('password2', 'icon2')">
+        </div>
+        <div class="botoes">
+            <a class="button -second -up" href="entrada.html">Voltar</a>
+            <a class="button" onclick="cadastro()">Cadastre</a>
+        </div>
+    </div>
+</body>
+</html>

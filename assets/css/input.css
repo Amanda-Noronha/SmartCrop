@@ -1,0 +1,11 @@
+.input{
+  display: flex;
+}
+div input{
+  border: none;
+  border-bottom: 1px solid #590fe4;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+div img{
+  cursor: pointer;
+}

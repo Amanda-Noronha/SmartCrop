@@ -1,0 +1,39 @@
+body{
+    background-color: #46BFDA;
+}
+h3{
+    font-family: 'Averia Serif Libre', serif;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+p{
+    font-family: 'Averia Serif Libre', serif;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    margin: 1px 10px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+a{
+    margin: 0;
+    padding: 0;
+}

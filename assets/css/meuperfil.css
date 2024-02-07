@@ -1,0 +1,70 @@
+body{
+    background-color: #46BFDA;
+    color: white;
+}
+
+
+.button.-perfil{
+    font-size: small;
+    padding: 8px;
+    margin-left: 550px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.caixa{
+    background-color: #D9D9D9;
+    width: 500px;
+    height: 130px;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-left: 250px;
+}
+
+h1,h2,h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Averia Serif Libre', serif;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    margin-left: 44%;
+}
+h3{
+    margin-right: 227px;
+}
+
+
+@media(max-width: 600px){
+    img{
+        margin-left: 37%;
+    }
+    .caixa{
+        margin-left: 12%;
+        width: 300px;
+    }
+    .button.-perfil{
+        margin-left: 60%;
+    }
+}
+
+@media (max-width: 300px) {
+    .caixa{
+        margin-left: 5%;
+        width: 250px;
+    }
+    h3{
+        margin-right: 70%;
+    }
+
+}

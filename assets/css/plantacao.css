@@ -1,0 +1,51 @@
+body{
+    background-color: #46BFDA;
+}
+
+.tag{
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 1px 10px;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Averia Serif Libre', serif;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.button.-second{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.estado{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.tag.-review{
+    display: flex;
+    background-color: #13F000;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 25px;
+    margin-right: 30px;
+}
+
+.all.-second{
+    margin: 0px 40px;
+}
+
+.alinha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

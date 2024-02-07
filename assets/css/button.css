@@ -1,0 +1,19 @@
+.button{
+    display: inline-block;
+    box-shadow: 5px 5px 0px black;
+    padding: 18px 20px;
+    margin-right: 0;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    background-color: #7DEFB8;
+    border-radius: 25px;
+    font-family: 'Fira Code', monospace;
+}
+
+.button.-second{
+    margin-right: 50px;
+}
+.button.-second.-up{
+    margin-top: 50px;
+}
